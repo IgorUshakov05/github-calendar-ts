@@ -1,0 +1,30 @@
+{
+  "name": "github-calendar-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Everybodywell, haters gonna hate loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now you can.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r ts-node/register/transpile-only ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorUshakov05/github-calendar-ts.git"
+  },
+  "author": "Igor Ushakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorUshakov05/github-calendar-ts/issues"
+  },
+  "homepage": "https://github.com/IgorUshakov05/github-calendar-ts#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "npm-run-all": "^4.1.5"
+  }
+}

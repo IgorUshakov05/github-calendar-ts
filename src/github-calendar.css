@@ -61,21 +61,26 @@
 }
 
 .day[data-level="0"] {
+  outline: 1px solid var(--color-calendar-graph-day-bg);
   background-color: var(--color-calendar-graph-day-bg);
 }
 
 .day[data-level="1"] {
+  outline: 1px solid var(--color-calendar-graph-day-L1-bg);
   background-color: var(--color-calendar-graph-day-L1-bg);
 }
 
 .day[data-level="2"] {
+  outline: 1px solid var(--color-calendar-graph-day-L2-bg);
   background-color: var(--color-calendar-graph-day-L2-bg);
 }
 
 .day[data-level="3"] {
+  outline: 1px solid var(--color-calendar-graph-day-L3-bg);
   background-color: var(--color-calendar-graph-day-L3-bg);
 }
 
 .day[data-level="4"] {
+  outline: 1px solid  var(--color-calendar-graph-day-L4-bg);
   background-color: var(--color-calendar-graph-day-L4-bg);
 }

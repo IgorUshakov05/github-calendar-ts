@@ -4,9 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub Activity Calendar</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .calendar-container {
+        width: 1000px; /* Контейнер растягивается */
+        max-width: 900px; /* Ограничение максимальной ширины */
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #d1d9e0;
+      }
+      .month {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 38px;
+        margin-bottom: 5px;
+      }
+      .calendar {
+        display: flex;
+      }
+      .weekdays {
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        font-size: 12px;
+        justify-content: space-around;
+        margin-right: 5px;
+      }
+      .week {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        height: 100%;
+        justify-content: space-between;
+      }
+      .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        width: 100%;
+        height: 100px;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      .day {
+        width: 10px;
+        aspect-ratio: 1; /* Квадратная форма */
+        font-size: 8px;
+        background-color: #ebedf0;
+        border-radius: 2px;
+        outline: 1px solid #ebedf0;
+        outline-offset: -1px;
+      }
+      .monthItem {
+        font-size: 12px;
+      }
+    </style>
   </head>
   <body>
-    <div class="calendar"></div>
+    <div class="calendar-container">
+      <div class="month"></div>
+      <div class="calendar">
+        <div class="weekdays">
+          <span>Mon</span>
+          <span>Wed</span>
+          <span>Fri</span>
+        </div>
+        <div class="grid"></div>
+      </div>
+    </div>
+    <script>
+    
+    </script>
     <script src="./index.js" type="module"></script>
   </body>
 </html>

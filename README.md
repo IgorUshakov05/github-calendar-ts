@@ -38,7 +38,7 @@ drawGitHubTabActive(GITHUB_TOKEN);
 
 ```html
 <script type="module">
-  import { drawGitHubTabActive } from "https://cdn.jsdelivr.net/gh/IgorUshakov05/github-calendar-ts@master/dist/github-calendar.js";
+  import { drawGitHubTabActive } from "https://cdn.jsdelivr.net/gh/IgorUshakov05/github-calendar-ts@master/dist/index.js";
   const GITHUB_TOKEN = "ВАШ_GITHUB_TOKEN";
   drawGitHubTabActive(GITHUB_TOKEN);
 </script>

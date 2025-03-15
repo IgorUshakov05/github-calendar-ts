@@ -1,7 +1,7 @@
 const style = document.createElement("link");
 style.setAttribute(
   "href",
-  "https://cdn.jsdelivr.net/gh/IgorUshakov05/github-calendar-ts@master/src/github-calendar.css"
+  "https://cdn.jsdelivr.net/gh/IgorUshakov05/github-calendar-ts@dev/src/github-calendar.css"
 );
 style.rel = "stylesheet";
 document.head.appendChild(style);

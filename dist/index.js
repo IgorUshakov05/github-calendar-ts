@@ -146,6 +146,7 @@ const drawGitHubTabActive = (GITHUB_TOKEN) => __awaiter(void 0, void 0, void 0, 
                 day.style.opacity = "0";
             }
             day.setAttribute("data-date", attr);
+            day.setAttribute("title", attr);
             if (activityDay[attr]) {
                 day.setAttribute("data-level", `${getLevelForCommits(activityDay[attr])}`);
             }

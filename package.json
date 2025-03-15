@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Everybodywell, haters gonna hate loves GitHub and everybody loves stats. So, why not making the GitHub contributions calendar available for being embeded in your web pages? Now you can.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon -r ts-node/register/transpile-only ./src/index.ts",
     "watch": "tsc --watch"

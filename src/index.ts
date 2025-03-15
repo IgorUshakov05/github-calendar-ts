@@ -160,6 +160,8 @@ const drawGitHubTabActive = async (GITHUB_TOKEN: string) => {
         day.style.opacity = "0";
       }
       day.setAttribute("data-date", attr);
+      day.setAttribute("title", attr);
+
       if (activityDay[attr]) {
         day.setAttribute(
           "data-level",

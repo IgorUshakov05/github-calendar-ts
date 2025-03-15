@@ -7,9 +7,69 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-const style = document.createElement("link");
-style.setAttribute("href", "https://cdn.jsdelivr.net/gh/IgorUshakov05/github-calendar-ts@master/src/github-calendar.css");
-style.rel = "stylesheet";
+const style = document.createElement("style");
+style.textContent = `
+  .calendar-container {
+  width: 100%;
+  max-width: 900px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d9e0;
+}
+.month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 38px;
+  margin-bottom: 5px;
+}
+.calendar {
+  display: flex;
+}
+.weekdays {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  font-size: 12px;
+  justify-content: space-around;
+  margin-right: 5px;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  width: 100%;
+}
+.day {
+  width: 10px;
+  margin-bottom: 3px;
+  aspect-ratio: 1;
+  background-color: #ebedf0;
+  border-radius: 2px;
+  outline: 1px solid #ebedf0;
+  outline-offset: -1px;
+}
+.monthItem {
+  font-size: 12px;
+}
+
+.day[data-level="4"] {
+  background-color: #216e39;
+}
+.day[data-level="3"] {
+  background-color: #30a14e;
+}
+.day[data-level="2"] {
+  background-color: #40c463;
+}
+.day[data-level="1"] {
+  background-color: #9be9a8;
+}
+.day[data-level="0"] {
+  background-color: #ebedf0;
+}
+`;
 document.head.appendChild(style);
 const months = {
     1: "Jan",

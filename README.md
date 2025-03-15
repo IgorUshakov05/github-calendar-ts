@@ -13,12 +13,6 @@
 npm install github-calendar-ts
 ```
 
-Или используйте CDN:
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IgorUshakov05/github-calendar-ts@master/src/github-calendar.css">
-```
-
 ### 2. Создайте GitHub Access Token
 
 Для работы с GitHub API вам потребуется **персональный токен доступа**. Создайте его [здесь](https://github.com/settings/tokens/new) и выберите `repo` и `read:user`.
